@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="server_base_url">127.0.0.1</string>
+    <string name="server_base_url">52.78.170.37</string>
 
 </resources>

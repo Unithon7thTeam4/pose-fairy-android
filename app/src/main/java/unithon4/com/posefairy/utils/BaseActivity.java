@@ -1,5 +1,6 @@
 package unithon4.com.posefairy.utils;
 
+import android.app.ActionBar;
 import android.app.Application;
 
 /**
@@ -11,7 +12,8 @@ public class BaseActivity extends Application{
     @Override
     public void onCreate() {
         super.onCreate();
-        TypeFaceUtil.overrideFont(getApplicationContext(), "SERIF", "fonts/IropkeBatangM.ttf");
+
+        TypeFaceUtil.overrideFont(getApplicationContext(), "SERIF", "fonts/Roboto-Regular.ttf");
     }
 
 
